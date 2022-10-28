@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0FFaLNNmkr2ChfKvGfA8P7BO+0x7MCVUWpKfihjVmKDPPLlf5ApiJSnlJGFq0q4rJZqhOQUnZVHZ/0CeEK4lrg==",
+  "success": true,
+  "projectFilePath": "C:\\ps6-pekoxaqua\\Spreadsheet\\DependencyGraph\\DependencyGraph.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matth\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
