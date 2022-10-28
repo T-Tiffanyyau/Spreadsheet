@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:SS="clr-namespace:SS"
+             x:Class="SpreadsheetGUI.MainPage">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="File">
+            <MenuFlyoutItem Text="New" Clicked="NewClicked" />
+            <MenuFlyoutItem Text="Open" Clicked="OpenClicked" />
+            <MenuFlyoutItem Text="Save" Clicked="SaveClicked" />
+        </MenuBarItem>
+        <MenuBarItem Text="Help">
+            <MenuFlyoutItem Text="Input" Clicked="HelpInput" />
+            <MenuFlyoutItem Text="Formula Error" Clicked="HelpFormulaError" />
+            <MenuFlyoutItem Text="Saving/Loading" Clicked="HelpSavingLoading" />
+            <MenuFlyoutItem Text="Search by Value" Clicked="HelpSearchbyValue" />
+            <MenuFlyoutItem Text="Search by Cell" Clicked="HelpSearchbyCell" />
+
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+    <ScrollView>
+
+        <VerticalStackLayout>
+            <HorizontalStackLayout x:Name="uTabButtonContainer">
+
+            </HorizontalStackLayout>
+            <VerticalStackLayout x:Name="uChildPageContainer">
+
+            </VerticalStackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry  
+                    BackgroundColor="Aqua"
+                    Margin="5,10,10,10"
+                    x:Name="CellName"
+                    Placeholder="Cell Name"
+                   IsReadOnly="True"/>
+                <Entry  
+                    BackgroundColor="PaleGoldenrod"
+                    Margin="5,10,10,10"
+                    x:Name="CellContent"
+                    Placeholder="Cell Content"
+                   IsReadOnly="True"/>
+                <Entry x:Name="CellValue"
+                   Margin="5,10,10,10"
+                   BackgroundColor="MistyRose"
+                   Placeholder="Cell Value"
+                   IsReadOnly="True"/>
+                <Entry x:Name="editable"
+                   Margin="10,10,10,10"
+                   Placeholder="Enter Value"
+                   />
+
+                <Button Text="Set Value"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked" />
+
+                <Entry x:Name="seach"
+                   Margin="200,10,10,10"
+                   Placeholder="Enter Cell or Value"
+                   />
+
+                <Button Text="Search by Value"
+                VerticalOptions="Center"
+                Margin="10,10,10,10"
+                HorizontalOptions="Center"
+                Clicked="OnSearchValueClicked" />
+
+                <Button Text="Search by Cell"
+                VerticalOptions="Center"
+                 Margin="10,10,10,10"
+                HorizontalOptions="Center"
+                Clicked="OnSearchCellClicked" />
+
+            </StackLayout>
+
+
+            <Grid>
+                <SS:SpreadsheetGrid x:Name="spreadsheetGrid" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
