@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uYpbyvndsEe5xegSmHUmrr1WQQ/EdCl2xMsyLDqk4KRQ92raBTiP7TQQoaSVlJWF4vtP63qTTjkBXFJ7L/1H6A==",
+  "success": true,
+  "projectFilePath": "C:\\ps6-pekoxaqua\\Spreadsheet\\Spreadsheet\\Spreadsheet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matth\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
