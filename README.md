@@ -27,7 +27,7 @@ If the spreadsheet is being modified, a warning dialog will be displayed asking 
 
 ## Additional function
 
-A additional search function is added
+Additional search function are added
 	
 1. "Search by Value" 
 
