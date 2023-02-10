@@ -28,8 +28,10 @@ If the spreadsheet is being modified, a warning dialog will be displayed asking 
 ## Additional function
 
 A additional search function is added
+	
 	"Search by Value" searches for a specific value in the spreadsheet and will display all the cells the content such value in a pop up window.
 		if the value is not found in the spreadsheet, a message will display in the pop up window indicating it is not found.
+	
 	"Search by Cell" searches for the specific cell in the spreadsheet and will display the cell content in a pop up window.
 		if the cell name entered is invalid, a message will display in the pop up window indicating the cell name entered is invalid.
 		if the associate cell does not have a value, a message will display in the pop up window indicating the cell do not have a value.
