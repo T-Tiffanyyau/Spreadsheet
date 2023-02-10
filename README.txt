@@ -25,7 +25,7 @@ The spreadsheet contain the following saving/loading features which are done by 
 	"open" - open a spreadsheet that was saved in a file
 If the spreadsheet is being modified, a warning dialog will be displayed asking to save the data when "new" or "open" is pressed.
 
-##Additional function
+## Additional function
 
 A additional search function is added
 	"Search by Value" searches for a specific value in the spreadsheet and will display all the cells the content such value in a pop up window.
